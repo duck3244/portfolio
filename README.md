@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ============================
 
 ### Install command
+```
 bash
 npx create-next-app@latest portfolio --typescript --tailwind
 npm install lucide-react
@@ -12,6 +13,7 @@ npm install tailwind-merge
 
 Create File : .env.local
 NEXT_PUBLIC_API_URL=your_api_url
+```
 
 
 ### Getting Started
@@ -52,6 +54,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 ### File Structure
+```
 portfolio/
 ├── .github/
 │   └── workflows/
@@ -98,7 +101,6 @@ portfolio/
 ├── package.json           # 프로젝트 의존성 및 스크립트
 ├── tailwind.config.js     # Tailwind CSS 설정
 └── tsconfig.json          # TypeScript 설정
-
-============================
+```
 
 > Made by claude 3.5 sonnet ##
