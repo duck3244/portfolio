@@ -34,7 +34,7 @@ interface CertificationsProps {
   };
 
   return (
-    <Section title="특허 및 저작권">
+    <Section title="특허 및 저작권, 자격증">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {certifications?.map((cert) => ( 
           <div 
