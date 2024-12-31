@@ -58,49 +58,49 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 portfolio/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml        # GitHub Actions 배포 설정
+│       └── deploy.yml
 │
-├── public/                  # 정적 파일 저장
-│   ├── images/              # 이미지 파일들
+├── public/
+│   ├── images/
 │   └── favicon.ico
 │
 ├── src/
-│   ├── app/                 # Next.js 13+ App Router
-│   │   ├── layout.tsx      # 루트 레이아웃
-│   │   └── page.tsx        # 메인 페이지
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
 │   │
-│   ├── components/          # 리액트 컴포넌트
-│   │   ├── layout/         # 레이아웃 관련 컴포넌트
+│   ├── components/
+│   │   ├── layout/
 │   │   │   ├── Container.tsx
 │   │   │   └── Section.tsx
 │   │   │
-│   │   ├── Header.tsx      # 헤더 컴포넌트
-│   │   ├── Education.tsx   # 학력 섹션
-│   │   ├── Skills.tsx      # 스킬 섹션
-│   │   ├── Experience.tsx  # 경력 섹션
-│   │   ├── Projects.tsx    # 프로젝트 섹션
-│   │   ├── Certifications.tsx # 자격증/특허 섹션
-│   │   └── Footer.tsx      # 푸터 컴포넌트
+│   │   ├── Header.tsx
+│   │   ├── Education.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Certifications.tsx
+│   │   └── Footer.tsx
 │   │
-│   ├── contexts/           # Context API 관련
-│   │   └── ThemeContext.tsx  # 다크모드 context
+│   ├── contexts/
+│   │   └── ThemeContext.tsx
 │   │
-│   ├── data/              # 데이터 파일들
-│   │   ├── personalInfo.ts  # 개인 정보
-│   │   ├── education.ts     # 학력 정보
-│   │   ├── skills.ts        # 기술 스택
-│   │   ├── experience.ts    # 경력 사항
-│   │   ├── projects.ts      # 프로젝트 정보
-│   │   └── certifications.ts # 자격증/특허 정보
+│   ├── data/
+│   │   ├── personalInfo.ts
+│   │   ├── education.ts
+│   │   ├── skills.ts
+│   │   ├── experience.ts
+│   │   ├── projects.ts
+│   │   └── certifications.ts
 │   │
-│   └── styles/            # 스타일 파일들
-│       └── globals.css    # 전역 스타일
+│   └── styles/
+│       └── globals.css
 │
-├── .gitignore             # Git 제외 파일 설정
-├── next.config.js         # Next.js 설정
-├── package.json           # 프로젝트 의존성 및 스크립트
-├── tailwind.config.js     # Tailwind CSS 설정
-└── tsconfig.json          # TypeScript 설정
+├── .gitignore
+├── next.config.js
+├── package.json
+├── tailwind.config.js
+└── tsconfig.json
 ```
 
-> Made by claude 3.5 sonnet ##
+> Made by claude 3.5 sonnet
