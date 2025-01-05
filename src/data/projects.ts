@@ -63,7 +63,7 @@ export interface Project {
       tasks: [
         "법률을 기반으로 합성 데이터셋(Q&A) 생성",
         "Open LLM 모델을 합성 데이터셋으로 파인튜닝하여 법률 챗봇 모델 생성",
-        "대시보드 기반 법률 챗봇 프토토타입 개발"
+        "대시보드 기반 법률 챗봇 프로토타입 개발"
       ],
       technologies: [
         "Python",
@@ -113,7 +113,7 @@ export interface Project {
       tasks: [
         "컴퓨터 비전 모델 타당성 검토",
         "객체 탐지 및 인식, 객체 수 계산 및 거리 계산, 안면 인식 등 후처리 기능 개발",
-        "웹 기반으로 영상 솔루션 프토토타입 개발"
+        "웹 기반으로 영상 솔루션 프로토타입 개발"
       ],
       technologies: [
         "Python",
