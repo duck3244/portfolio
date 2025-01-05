@@ -88,7 +88,7 @@ export interface Project {
       tasks: [
         "안전점검회의 관련 데이터 수집 및 Vector Store 구축",
         "Open LLM 모델과 Vector Store로 의미 기반 검색 서비스 개발",
-        "대시보드 기반 의미 기반 검색 서비스 프토토타입 개발"
+        "대시보드 기반 의미 기반 검색 서비스 프로토타입 개발"
       ],
       technologies: [
         "Python",
