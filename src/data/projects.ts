@@ -32,8 +32,9 @@ export interface Project {
       ],
       technologies: [
         "Python",
+        "JavaScript",
         "Tensorflow",
-        "Transformer",
+        "Transformers",
         "Scikit-Learn",
         "FastAPI",
         "Celery",
@@ -67,8 +68,8 @@ export interface Project {
       ],
       technologies: [
         "Python",
-        "Transformer",
         "Pytorch",
+        "Transformers",
         "FAISS",
         "Streamlit",
         "CUDA"        
@@ -92,8 +93,8 @@ export interface Project {
       ],
       technologies: [
         "Python",
-        "Transformer",
         "Pytorch",
+        "Transformers",
         "FAISS",
         "Streamlit",
         "CUDA"
