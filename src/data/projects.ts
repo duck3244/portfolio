@@ -28,7 +28,7 @@ export interface Project {
       tasks: [
         "건설 근로자의 사고 사례 데이터 분석 및 데이터셋 생성",
         "멀티모달 대규모 언어 모델 기반으로 근로자 위험도 사고 예측 모델 개발",
-        "모델 경량화 및 Toolbox 내재화"
+        "모델 경량화 및 Model Serving"
       ],
       technologies: [
         "Python",
@@ -47,7 +47,7 @@ export interface Project {
       achievements: [
         "건설 근로자의 재해 사고 예측 모델 개발",
         "실시간 처리 정확도 86% 달성",
-        "CPU 기반으로 Toolbox 배포",
+        "CPU 기반으로 Model Serving",
         "투자 유치에 기여"
       ],
       links: {
@@ -81,27 +81,32 @@ export interface Project {
     },
     {
       id: "project-3",
-      title: "안전점검회의(TBM)의 안전 교육 및 유사 사고 사례에 대한 의미 기반 검색 프로토타입 개발",
+      title: "안전점검회의(TBM) 안전 교육에 대한 의미 기반 검색 Model Serving 개발",
       description: "안전점검회의 관련 자료를 의미 기반으로 검색하는 서비스 개발",
-      period: "2024.03 - 2024.04",
+      period: "2024.03 - 2025.02",
       role: "Senior ML/DL Engineer",
       company: "리스크제로",
       tasks: [
-        "안전점검회의 관련 데이터 수집 및 Vector Store 구축",
-        "Open LLM 모델과 Vector Store로 의미 기반 검색 서비스 개발",
-        "대시보드 기반 의미 기반 검색 서비스 프로토타입 개발"
+        "안전점검회의 관련 데이터 수집 및 Vector Store, NoSQL 구축",
+        "Open LLM 모델과 Vector Store, NoSQL로 의미 기반 검색 서비스 개발"
       ],
       technologies: [
         "Python",
+        "JavaScript",
         "Pytorch",
         "Transformers",
+        "FastAPI",
+        "Celery",
+        "Next.js",
         "FAISS",
-        "Streamlit",
-        "CUDA"
+        "MongoDB",
+        "Redis",
+        "NGINX",
+        "Docker"
       ],
       achievements: [
-        "안전점검회의 관련 의미 기반 검색 프로토타입 개발",
-        "투자 유치에 기여"
+        "안전점검회의 안전 교육 자료에 대한 의미 기반 검색 기술 개발",
+        "안전점검회의 유사 사고 사례에 대한 의미 기반 검색 프로토타입 개발"
       ]
     },
     {
