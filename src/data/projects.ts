@@ -81,7 +81,7 @@ export interface Project {
     },
     {
       id: "project-3",
-      title: "안전점검회의(TBM) 안전 교육에 대한 의미 기반 검색 Model Serving 개발",
+      title: "안전점검회의(TBM) 안전 교육에 대한 의미 기반 검색 개발",
       description: "안전점검회의 관련 자료를 의미 기반으로 검색하는 서비스 개발",
       period: "2024.03 - 2025.02",
       role: "Senior ML/DL Engineer",
@@ -106,7 +106,8 @@ export interface Project {
       ],
       achievements: [
         "안전점검회의 안전 교육 자료에 대한 의미 기반 검색 기술 개발",
-        "안전점검회의 유사 사고 사례에 대한 의미 기반 검색 프로토타입 개발"
+        "안전점검회의 유사 사고 사례에 대한 의미 기반 검색 프로토타입 개발",
+        "CPU 기반으로 Model Serving"
       ]
     },
     {
