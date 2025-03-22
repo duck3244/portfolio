@@ -3,7 +3,7 @@ export const experience = [
     {
       company: "리스크제로",
       position: "Senior ML/DL Engineer",
-      period: "2023 - 현재",
+      period: "2023 - 2025",
       achievements: [
         "건설 근로자의 위험도 사고 예측 알고리즘 V3.0 연구 개발",
         "중대재해처벌법 및 산업안전보건법에 대한 법률 챗봇 프로토타입 개발",
