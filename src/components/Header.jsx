@@ -33,16 +33,17 @@ const Header = ({ personalInfo }) => {
               <Mail className="w-5 h-5 mr-2" />
               {personalInfo.email}
             </a>
-            {/* <a href={personalInfo.github} 
+            {<a href={personalInfo.github} 
                className="flex items-center hover:text-blue-200 transition-colors">
               <Github className="w-5 h-5 mr-2" />
               GitHub
             </a>
-            <a href={personalInfo.linkedin} 
-               className="flex items-center hover:text-blue-200 transition-colors">
-              <Linkedin className="w-5 h-5 mr-2" />
-              LinkedIn
-            </a> */}
+            // <a href={personalInfo.linkedin} 
+            //    className="flex items-center hover:text-blue-200 transition-colors">
+            //   <Linkedin className="w-5 h-5 mr-2" />
+            //   LinkedIn
+            // </a>
+            }
           </div>
         </div>
       </Container>

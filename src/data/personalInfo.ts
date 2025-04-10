@@ -4,5 +4,5 @@ export const personalInfo = {
     title: "Data Scientist",
     email: "gukgyeon@gmail.com",
     github: "https://github.com/duck3244",
-    //linkedin: "https://linkedin.com/in/mldev",
+    // linkedin: "https://linkedin.com/in/mldev",
   };
