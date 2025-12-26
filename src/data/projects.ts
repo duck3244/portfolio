@@ -20,6 +20,28 @@ export interface Project {
   export const projects: Project[] = [
     {
       id: "project-1",
+      title: "SKHy AI Enabled 비정형 데이터 시스템 구축",
+      description: "SK Hynix 용역 과제",
+      period: "2025.06 - 2025.12",
+      role: "Backend Developer",
+      company: "시프트원",
+      tasks: [
+        "LLM 서비스 플랫폼 개발",
+        "서버 장비 관리 플랫폼 개발"
+      ],
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Oracle",
+        "Redis"       
+      ],
+      achievements: [
+        "LLM 서비스 플랫폼 개발 완료",
+        "서버 장비 관리 플랫폼 개발 완료"
+      ]
+    },
+    {
+      id: "project-2",
       title: "건설 근로자 위험도 사고예측 알고리즘 V3.0",
       description: "딥러닝 기반 건설 근로자의 재해 사고 예측 모델 개발",
       period: "2023.08 - 2024.12",
@@ -55,7 +77,7 @@ export interface Project {
       }
     },
     {
-      id: "project-2",
+      id: "project-3",
       title: "중대재해처벌법 및 산업안전보건법에 대한 법률 챗봇 프로토타입 개발",
       description: "건설업 관련 법률 챗봇 모델 개발",
       period: "2024.01 - 2024.03",
@@ -80,7 +102,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-3",
+      id: "project-4",
       title: "안전점검회의(TBM) 안전 교육에 대한 의미 기반 검색 개발",
       description: "안전점검회의 관련 자료를 의미 기반으로 검색하는 서비스 개발",
       period: "2024.03 - 2025.02",
@@ -111,7 +133,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-4",
+      id: "project-5",
       title: "건설현장 작업자 안전관리 AI 영상 솔루션 프로토타입 개발",
       description: "영상 기반 안전관리 AI 모델 개발",
       period: "2024.07 - 2024.11",
@@ -136,7 +158,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-5",
+      id: "project-6",
       title: "자동차 휠 베어링 상태 진단 기술 내재화",
       description: "자동차 휠 베어링 상태 진단 알고리즘 개발 및 내재화",
       period: "2020.11 - 2022.06",
@@ -158,7 +180,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-6",
+      id: "project-7",
       title: "자동차 휠 베어링 고장 예측 알고리즘 연구",
       description: "(충북지역 주력산업 육성사업 과제) 자동차 휠 베어링 고장 예측 알고리즘 연구 및 시스템 구축",
       period: "2020.09 - 2021.10",
@@ -179,7 +201,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-7",
+      id: "project-8",
       title: "자동차 휠 베어링 고장 검출 알고리즘 연구",
       description: "(충북지역 주력산업 육성사업 과제) 자동차 휠 베어링 고장 검출 알고리즘 연구 및 시스템 개발",
       period: "2019.09 - 2020.08",
@@ -201,7 +223,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-8",
+      id: "project-9",
       title: "전기설비기술지원 시스템 고도화",
       description: "기존 자사의 모니터링 시스템에 건전성 예측 및 관리(PHM) 기술 적용",
       period: "2017.10 - 2019.09",
@@ -228,7 +250,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-9",
+      id: "project-10",
       title: "지능형 빅데이터 해석학 기술을 이용한 선로전환기 고장예측진단 시스템",
       description: "(중소기업기술혁신개발 [과제번호:S2312692]) 선로전환기의 고장 진단 및 수명을 예측하기 위해 산학협력을 통한 연구 개발",
       period: "2016.08 - 2017.10",
@@ -252,7 +274,7 @@ export interface Project {
       ]
     },
     {
-      id: "project-10",
+      id: "project-11",
       title: "3D공간정보 구축기반 감시정찰용 자동이착륙 무인이동체 시스템",
       description: "(특구기술사업화사업 [과제번호:14DD1093]) 자동이착륙과 미리 설정한 경로를 기반으로 비행하는 드론을 개발",
       period: "2015.03 - 2016.06",

@@ -1,9 +1,17 @@
 // src/data/experience.ts
 export const experience = [
     {
+      company: "시프트원",
+      position: "과장(프리랜서)",
+      period: "2025.06 - 2025.12",
+      achievements: [
+        "용역 내용 : SKHy AI Enabled 비정형 데이터 시스템 구축"
+      ]
+    },  
+    {
       company: "리스크제로",
       position: "Senior ML/DL Engineer",
-      period: "2023 - 2025",
+      period: "2023.08 - 2025.03",
       achievements: [
         "건설 근로자의 위험도 사고 예측 알고리즘 V3.0 연구 개발",
         "중대재해처벌법 및 산업안전보건법에 대한 법률 챗봇 프로토타입 개발",
@@ -15,7 +23,7 @@ export const experience = [
     {
       company: "일진글로벌",
       position: "Algorithm Researcher",
-      period: "2019 - 2022",
+      period: "2019.10 - 2022.10",
       achievements: [
         "자동차 휠 베어링 상태 진단 기술 내재화",
         "자동차 휠 베어링 고장 예측 알고리즘 연구",
@@ -25,7 +33,7 @@ export const experience = [
     {
       company: "세화",
       position: "Data Scientist",
-      period: "2016 - 2019",
+      period: "2016.08 - 2019.09",
       achievements: [
         "전기설비기술지원 시스템 고도화",
         "지능형 빅데이터 해석학 기술을 이용한 선로전환기 고장예측진단 시스템"
@@ -34,7 +42,7 @@ export const experience = [
     {
       company: "두시텍",
       position: "Researcher",
-      period: "2015 - 2016",
+      period: "2015.02 - 2016.06",
       achievements: [
         "드론 제어 시스템 및 영상 처리 소프트웨어 개발"
       ]
