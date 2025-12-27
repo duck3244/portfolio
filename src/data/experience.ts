@@ -2,10 +2,11 @@
 export const experience = [
     {
       company: "시프트원",
-      position: "과장(프리랜서)",
+      position: "Backend Developer(Freelancer)",
       period: "2025.06 - 2025.12",
       achievements: [
-        "용역 내용 : SKHy AI Enabled 비정형 데이터 시스템 구축"
+        "LLM 서비스 플랫폼 개발",
+        "서버 장비 관리 플랫폼 개발"
       ]
     },  
     {
