@@ -1,6 +1,3 @@
-// src/app/page.tsx
-'use client';
-
 import React from 'react';
 import Header from '@/components/Header';
 import Education from '@/components/Education';
@@ -22,7 +19,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
       <Header personalInfo={personalInfo} />
-      
+
       <main className="py-12">
         <Container>
           <Education education={education} />

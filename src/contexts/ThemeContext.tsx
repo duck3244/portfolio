@@ -1,46 +1,53 @@
-// src/contexts/ThemeContext.tsx
 'use client';
 
-import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import React, { createContext, useCallback, useContext, useEffect, useState, ReactNode } from 'react';
 
 interface ThemeContextType {
   darkMode: boolean;
   toggleDarkMode: () => void;
 }
 
-const ThemeContext = createContext<ThemeContextType>({
-  darkMode: false,
-  toggleDarkMode: () => {},
-});
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 interface ThemeProviderProps {
   children: ReactNode;
 }
 
+const STORAGE_KEY = 'darkMode';
+
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [mounted, setMounted] = useState<boolean>(false);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const isDark = window.localStorage.getItem('darkMode') === 'true';
-      setDarkMode(isDark);
-    }
+    setDarkMode(document.documentElement.classList.contains('dark'));
+    setMounted(true);
   }, []);
 
-  const toggleDarkMode = () => {
-    setDarkMode((prev) => {
-      if (typeof window !== 'undefined') {
-        window.localStorage.setItem('darkMode', (!prev).toString());
+  useEffect(() => {
+    if (!mounted) return;
+    document.documentElement.classList.toggle('dark', darkMode);
+    window.localStorage.setItem(STORAGE_KEY, String(darkMode));
+  }, [darkMode, mounted]);
+
+  useEffect(() => {
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
+    const handler = (event: MediaQueryListEvent) => {
+      if (window.localStorage.getItem(STORAGE_KEY) === null) {
+        setDarkMode(event.matches);
       }
-      return !prev;
-    });
-  };
+    };
+    media.addEventListener('change', handler);
+    return () => media.removeEventListener('change', handler);
+  }, []);
+
+  const toggleDarkMode = useCallback(() => {
+    setDarkMode((prev) => !prev);
+  }, []);
 
   return (
     <ThemeContext.Provider value={{ darkMode, toggleDarkMode }}>
-      <div className={darkMode ? 'dark' : ''}>
-        {children}
-      </div>
+      {children}
     </ThemeContext.Provider>
   );
 };
