@@ -11,7 +11,6 @@ const Footer: React.FC<FooterProps> = ({ name }) => {
         <p>
           © {new Date().getFullYear()} {name}. All rights reserved.
         </p>
-        <p>Made by claude 3.5 sonnet</p>
       </div>
     </footer>
   );
